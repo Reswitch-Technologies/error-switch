@@ -1,0 +1,15 @@
+{
+  "name": "error-book",
+  "version": "1.0.0",
+  "description": "Global error handler for consistent APIs for Reswitch",
+  "main": "index.js",
+  "author": "Reswitch Technologies",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
