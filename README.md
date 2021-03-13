@@ -14,7 +14,7 @@ The server can send an error message in the following format:
 ```
 The browser can then use the imported error file to understand the error semantically and deal with it in the right way.
 ```js
-if(res.error.name === 'LOGIN_FAILED'){
+if(res.error && res.error.name === 'LOGIN_FAILED'){
     // Do something
 }
 ```
