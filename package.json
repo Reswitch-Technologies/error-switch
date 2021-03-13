@@ -1,7 +1,7 @@
 {
-  "name": "error-book",
+  "name": "error-switch",
   "version": "1.0.0",
-  "description": "Global error handler for consistent APIs for Reswitch",
+  "description": "Global error definitions to ensure consistent error handling APIs for Reswitch Technologies",
   "main": "index.js",
   "author": "Reswitch Technologies",
   "license": "MIT",
