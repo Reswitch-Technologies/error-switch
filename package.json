@@ -1,6 +1,6 @@
 {
   "name": "error-switch",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Global error definitions to ensure consistent error handling APIs for Reswitch Technologies",
   "main": "index.js",
   "author": "Reswitch Technologies",
