@@ -14,7 +14,7 @@ export default {
     description: 'An error was thrown by the database, but no cause was found',
     type: 'DATABASE',
   },
-  KNOWN_ERROR: {
+  KNOWN_DATABASE_ERROR: {
     name: 'KNOWN_ERROR',
     description: 'An error was thrown by the database with an explanation',
     type: 'DATABASE',
