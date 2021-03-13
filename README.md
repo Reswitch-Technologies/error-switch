@@ -9,13 +9,12 @@ This package can be used on the server side as well as on the browser.
 The server can send an error message in the following format:
 ```js
 {
-    errorType: 'AUTHENTICATION',
-    error: 'LOGIN_FAILED'
+    error: errors.LOGIN_FAILED
 }
 ```
 The browser can then use the imported error file to understand the error semantically and deal with it in the right way.
 ```js
-if(res.error === 'LOGIN_FAILED'){
+if(res.error.name === 'LOGIN_FAILED'){
     // Do something
 }
 ```
