@@ -117,6 +117,11 @@ module.exports = {
     description: 'The phone number was invalid',
     type: TYPES.VALIDATION,
   },
+  DATA_INVALID: {
+    name: 'DATA_INVALID',
+    description: 'All or part of the data received was invalid',
+    type: TYPES.VALIDATION,
+  },
 
   // AUTHORIZATION ERRORS
   NO_PERMISSION: {
