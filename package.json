@@ -1,15 +1,17 @@
 {
   "name": "error-switch",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Global error definitions to ensure consistent error handling APIs for Reswitch Technologies",
-  "main": "index.js",
+  "main": "errorSwitch.js",
   "author": "Reswitch Technologies",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
+    "dts-gen": "^0.6.0",
     "eslint": "^7.22.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "yargs": "^16.2.0"
   }
 }
