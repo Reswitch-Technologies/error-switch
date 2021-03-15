@@ -1,3 +1,5 @@
+// yarn dts-gen --expression-file errorSwitch.js
+
 const TYPES = {
   AUTHENTICATION: 'AUTHENTICATION',
   DATABASE: 'DATABASE',
