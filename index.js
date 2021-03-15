@@ -8,7 +8,7 @@ const TYPES = {
   GLOBAL: 'GLOBAL',
 };
 
-export default {
+module.exports = {
 
   // AUTHENTICATION ERRORS
   LOGIN_FAILED: {
