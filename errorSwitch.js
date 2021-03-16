@@ -58,6 +58,11 @@ module.exports = {
     description: 'The token used for authentication has expired',
     type: TYPES.AUTHENTICATION,
   },
+  TEMPORARY_TOKEN_INVALID: {
+    name: 'TEMPORARY_TOKEN_INVALID',
+    description: 'The temporary token is invalid',
+    type: TYPES.AUTHENTICATION,
+  },
 
   // DATABASE ERRORS
   UNKNOWN_DATABASE_ERROR: {

@@ -166,6 +166,11 @@ declare const errorSwitch: {
         name: string;
         type: string;
     };
+    TEMPORARY_TOKEN_INVALID: {
+        description: string;
+        name: string;
+        type: string;
+    };
     TWITTER_FAILED: {
         description: string;
         name: string;
