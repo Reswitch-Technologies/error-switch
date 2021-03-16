@@ -193,6 +193,11 @@ module.exports = {
     description: 'OTP entered by the user was incorrect',
     type: TYPES.APPLICATION,
   },
+  DEPENDENCY_FAILURE: {
+    name: 'DEPENDENCY_FAILURE',
+    description: 'A server-side dependency failed',
+    type: TYPES.APPLICATION,
+  },
 
   // GLOBAL
   GLOBAL_ERROR: {

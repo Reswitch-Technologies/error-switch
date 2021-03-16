@@ -16,6 +16,11 @@ declare const errorSwitch: {
         name: string;
         type: string;
     };
+    DEPENDENCY_FAILURE: {
+        description: string;
+        name: string;
+        type: string;
+    };
     EMAIL_INVALID: {
         description: string;
         name: string;
